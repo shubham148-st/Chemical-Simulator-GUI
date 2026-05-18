@@ -1,0 +1,84 @@
+# Virtual Environment
+env/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Build files
+build/
+dist/
+*.spec
+
+# IDE files
+.vs/
+.idea/
+.vscode/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Simulation outputs
+*.csv
+
+# Generated Modelica files
+Flowsheet.mo
+simulateEQN.mos
+FlowsheetSEQ.csv__pycache__/
+*.pyc
+
+env/
+venv/
+
+.vs/
+
+build/
+dist/
+
+*.log
+*.csv
+
+Undo.dat
+Redo.datsrc/main/python/OMChem/__pycache__/*
+src/main/python/DockWidgets/__pycache__/*
+src/main/python/utils/__pycache__/*
+src/main/python/Undo.dat
+src/main/python/Redo.dat
+src/main/Simulator/Databases/__pycache__/*
+src/main/Simulator/Flowsheet*
+src/main/Simulator/Graph*
+src/main/Simulator/database.mo
+src/main/Simulator/PlotGraph.mos
+src/main/Simulator/simulateEQN.mos
+.idea/*
+src/main/Simulator/Undo.dat
+src/main/Simulator/Redo.dat
+
+*.pyc
+src/main/python/utils/__pycache__/Graphics.cpython-37.pyc
+src/main/python/utils/__pycache__/Streams.cpython-37.pyc
+src/main/python/utils/__pycache__/Streams.cpython-37.pyc
+src/main/python/utils/__pycache__/UnitOperations.cpython-37.pyc
+src/main/python/DockWidgets/__pycache__/DockWidget.cpython-37.pyc
+src/main/python/DockWidgets/__pycache__/DockWidgetCompoundSeparator.cpython-37.pyc
+src/main/python/DockWidgets/__pycache__/DockWidgetCompressorExpander.cpython-37.pyc
+src/main/python/DockWidgets/__pycache__/DockWidgetDistillationColumn.cpython-37.pyc
+src/main/python/DockWidgets/__pycache__/DockWidgetFlash.cpython-37.pyc
+src/main/python/DockWidgets/__pycache__/DockWidgetMaterialStream.cpython-37.pyc
+src/main/python/DockWidgets/__pycache__/DockWidgetShortcutColumn.cpython-37.pyc
+src/main/python/DockWidgets/__pycache__/DockWidgetSplitter.cpython-36.pyc
+src/main/python/OMChem/__pycache__/Flowsheet.cpython-36.pyc
+src/main/python/DockWidgets/__pycache__/DockWidgetShortcutColumn.cpython-36.pyc
+src/main/python/DockWidgets/__pycache__/DockWidgetMaterialStream.cpython-36.pyc
+src/main/python/DockWidgets/__pycache__/DockWidgetFlash.cpython-36.pyc
+src/main/python/DockWidgets/__pycache__/DockWidgetCompressorExpander.cpython-36.pyc
+src/main/python/DockWidgets/__pycache__/DockWidgetDistillationColumn.cpython-36.pyc
+src/main/python/DockWidgets/__pycache__/DockWidgetCompoundSeparator.cpython-36.pyc
+src/main/python/DockWidgets/__pycache__/DockWidget.cpython-36.pyc
+Simulator/database.mo
+src/main/python/Chemical Simulator GUI.exe
