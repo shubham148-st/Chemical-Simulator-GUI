@@ -306,9 +306,9 @@ Recommended:
 
 ---
 
-# Author
+# Project Status
 
-Chirag Koyande
+Under Active Development
 
 ---
 
