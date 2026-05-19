@@ -17,9 +17,11 @@ class ChemsepDatabase():
     def __init__(self):
         self.comp_name_list=list()
         self.name = 'chemsep'
+        self.comp_dict = {}
         for comp in compound:
             self.compName=comp.getElementsByTagName('CompoundID')[0].getAttribute('value')
             self.comp_name_list.append(self.compName+'(' + self.name + ')')       
+            self.comp_dict[self.compName] = comp
         self.comp_prop_list=list()         
             
     def get_comp_name_list(self):
@@ -35,15 +37,23 @@ class ChemsepDatabase():
 #GETTING 'ATTRIBUTE''S VALUE OF THE COMPOUND 'COMPS'
 #COMP IS AN ITERATING VALUE IN THE XML TAG COMPOUND      
     def get_value(self,comps,attrib):
-        self.comps=comps
         self.x=''
-        for comp in compound:
-            compName = comp.getElementsByTagName("CompoundID")[0].getAttribute("value")
-            if compName==comps:
-                try:
-                    self.x=comp.getElementsByTagName(attrib)[0].getAttribute("value")
-                except IndexError:
-                    self.x = "-"           
+        #self.comps=comps
+
+        #for comp in compound:
+        #    compName = comp.getElementsByTagName("CompoundID")[0].getAttribute("value")
+        #    if compName==comps:
+        #        try:
+        #            self.x=comp.getElementsByTagName(attrib)[0].getAttribute("value")
+        #        except IndexError:
+        #            self.x = "-"         
+        # the loop was taking too much time for getting value so i used dict
+        comp = self.comp_dict.get(comps)
+        if comp:
+            try:
+                self.x=comp.getElementsByTagName(attrib)[0].getAttribute("value")
+            except IndexError:
+                self.x = "-"           
         return (self.x)
         
 #CREATING comp_prop_list LIST OF THE COMPOUND SELECTED         

@@ -13,10 +13,10 @@ class ComponentSelectorWindow(QDialog):
         self.ui.setupUi(self)
 
         # yaha signals connect kar sakte ho
-        self.ui.pushButton.clicked.connect(self.submit)   # Submit button
+        self.ui.pushButton.clicked.connect(self.Add)   # Add button
         self.ui.pushButton_2.clicked.connect(self.reject) # Cancel button
 
-    def submit(self):
+    def Add(self):
         # yaha pe logic dalna hai jaise selected compounds return karna
-        print("Compounds submitted!")
+        print("Compounds Added!")
         self.accept()
