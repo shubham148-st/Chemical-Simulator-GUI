@@ -108,7 +108,7 @@
            </font>
           </property>
           <property name="text">
-           <string>Submit</string>
+           <string>Add</string>
           </property>
          </widget>
         </item>

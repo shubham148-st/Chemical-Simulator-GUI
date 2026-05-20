@@ -91,7 +91,7 @@ class Ui_Dialog(object):
         item.setText(_translate("Dialog", "Molecular Formula"))
         item = self.tableWidget.horizontalHeaderItem(3)
         item.setText(_translate("Dialog", "Molecular Weight"))
-        self.pushButton.setText(_translate("Dialog", "Submit"))
+        self.pushButton.setText(_translate("Dialog", "Add"))
         self.pushButton_2.setText(_translate("Dialog", "Cancel"))
 
 
