@@ -32,6 +32,10 @@ simulateEQN.mos
 FlowsheetSEQ.csv__pycache__/
 *.pyc
 
+graphify-out/
+src/main/graphify-out/
+.graphify*
+.agents*
 env/
 venv/
 
